@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnScanRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan Room"/>
+
+    <Button
+        android:id="@+id/btnBrowseFurniture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse Furniture Catalog"/>
+
+    <Button
+        android:id="@+id/btnFinalizeSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalize Selection (Checkout and Payment)"/>
+</LinearLayout>
